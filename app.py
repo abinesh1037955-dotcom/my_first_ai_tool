@@ -13,7 +13,7 @@ api_key = st.sidebar.text_input("AIzaSyAzyYlslHpAqI1-INvwe7xtKpctItqLshg", type=
 if api_key:
     try:
         genai.configure(api_key=api_key)
-        model = genai.GenerativeModel('models/gemini-1.5-flash')
+        model = genai.GenerativeModel('models/gemini-2.0-flash')
         
         user_input = st.text_area("Describe the task you want me to do:", height=150)
         
