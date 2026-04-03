@@ -8,7 +8,7 @@ st.write("I can help you with coding, writing, or data tasks.")
 
 # API Key Sidebar
 st.sidebar.header("Setup")
-api_key = st.sidebar.text_input("Enter your Gemini API Key:", type="password")
+api_key = st.sidebar.text_input("AIzaSyAzyYlslHpAqI1-INvwe7xtKpctItqLshg", type="password")
 
 if api_key:
     try:
